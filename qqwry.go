@@ -1,4 +1,4 @@
-package main
+package qqwry
 
 import (
 	"encoding/binary"

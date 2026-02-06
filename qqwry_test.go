@@ -1,6 +1,18 @@
-package main
+package qqwry
 
-import "testing"
+import (
+	"fmt"
+	"os"
+	"testing"
+)
+
+func TestDownload(t *testing.T) {
+	pwd, _ := os.Getwd()
+	if err := Download(fmt.Sprintf("%s%s", pwd, "/qqwry.dat")); err != nil {
+		t.Fatal(err)
+	}
+	t.Logf("download success")
+}
 
 func BenchmarkFind_DifferentIPs(b *testing.B) {
 	datFile := "./qqwry.dat"
