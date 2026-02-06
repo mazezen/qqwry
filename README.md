@@ -24,3 +24,10 @@ ip, country, area := qqWry.Find("8.8.8.8")
 fmt.Printf("ip: %s, country: %s, area: %s", ip, country, area)
 ```
 
+
+### 特别感谢
+感谢<a href="https://www.cz88.net/">纯真IP库</a>一直坚持为大家提供免费IP数据库。
+
+感谢<a href="https://github.com/yinheli">yinheli</a>的<a href="https://github.com/yinheli/qqwry">qqwry</a>项目，为我提供纯真ip库解析算法参考。
+
+感谢<a href="https://github.com/metowolf">metowolf</a>的<a href="https://github.com/metowolf/qqwry.ipdb">qqwry.ipdb</a>项目，提供纯真czdb转ipdb数据库。
